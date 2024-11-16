@@ -373,7 +373,7 @@ cantidad_dinero = st.number_input("Ingrese su sueldo bruto", min_value=100000)
 df_aportes=pd.DataFrame(columns=['id','sexo','Fnacimiento','EdadEnAños','Edad','fechaIngreso','AñosActividad','porcentajeAporte','fondoActual','salarioBruto','Escalafon'])
 df_aportes.loc[len(df_aportes)]=[None,sexo,fecha_nacimiento,None,None,fecha_inicio,None,0,0.0,cantidad_dinero,None]
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 # Botón para calcular
 if st.button("Calcular"):
     # Aquí llamas a tu función con los datos ingresados
