@@ -212,9 +212,9 @@ def calculo_flujo(df_aportes):
     df_flujo.loc[0]=[iterable[0],calcular_edad(nacim,iterable[0]),calcular_ant(afiliado.fechaIngreso.values[0][:7],hoy[:7]),afiliado.porcentajeAporte.values[0]/100,afiliado.salarioBruto.values[0]*afiliado.porcentajeAporte.values[0]/100,afiliado.fondoActual.values[0],afiliado.salarioBruto.values[0]]
     fondo_actual=afiliado.fondoActual.values[0]
     basico=afiliado.salarioBruto.values[0]/(1+antiguedad[calcular_ant(afiliado.fechaIngreso.values[0][:7],hoy[:7])][1])
-    print(fondo_actual)
+    
     for i in iterable[1:]:
-        print(i)
+        
 
         idx=iterable.index(i)
         edad=calcular_edad(nacim,i)
