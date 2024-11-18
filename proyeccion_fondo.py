@@ -6,6 +6,8 @@ Created on Fri Nov  8 10:13:10 2024
 """
 
 #  python -m streamlit run (arbol de directorio/app.py 
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 def fecha_nac(fecha,sexo):
