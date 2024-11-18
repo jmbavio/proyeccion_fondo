@@ -404,8 +404,9 @@ if st.button("Calcular"):
     
     total_df.round(2)
 
-    ax=total_df.plot(y=total_df.columns[1:6], use_index=True)
+    
     import matplotlib.pyplot as plt
+    ax=total_df.plot(y=total_df.columns[1:6], use_index=True)
     
     len(total_df)
     plt.text(0.0, total_df['0%'].values[0], 'Fondo actual: '+str(total_df['0%'].values[0]), fontsize=10)
