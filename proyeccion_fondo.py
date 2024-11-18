@@ -6,9 +6,9 @@ Created on Fri Nov  8 10:13:10 2024
 """
 
 #  python -m streamlit run (arbol de directorio/app.py 
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
+#import matplotlib
+#matplotlib.use('Agg')
+#import matplotlib.pyplot as plt
 
 def fecha_nac(fecha,sexo):
     import datetime
@@ -407,7 +407,7 @@ if st.button("Calcular"):
     total_df.round(2)
 
     
-    import matplotlib.pyplot as plt
+    #import matplotlib.pyplot as plt
     ax=total_df.plot(y=total_df.columns[1:6], use_index=True)
     
     len(total_df)
