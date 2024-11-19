@@ -9,10 +9,10 @@ Created on Fri Nov  8 10:13:10 2024
 #import matplotlib
 #matplotlib.use('Agg')
 #import matplotlib.pyplot as plt
-import hvplot
-import hvplot.pandas
+# import hvplot
+# import hvplot.pandas
 
-pd.options.plotting.backend = 'hvplot'
+# pd.options.plotting.backend = 
 
 def fecha_nac(fecha,sexo):
     import datetime
@@ -32,7 +32,7 @@ def fecha_nac(fecha,sexo):
 
 import io
 import pandas as pd
-
+pd.options.plotting.backend ='plotly'
 # d,sexo,Fnacimiento,EdadEnAños,Edad,fechaIngreso,AñosActividad,porcentajeAporte,fondoActual,salarioBruto,Escalafon
 
 
