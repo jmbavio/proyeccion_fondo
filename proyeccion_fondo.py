@@ -32,7 +32,7 @@ def fecha_nac(fecha,sexo):
 
 import io
 import pandas as pd
-pd.options.plotting.backend ='plotly'
+# pd.options.plotting.backend ='plotly'
 # d,sexo,Fnacimiento,EdadEnAños,Edad,fechaIngreso,AñosActividad,porcentajeAporte,fondoActual,salarioBruto,Escalafon
 
 
