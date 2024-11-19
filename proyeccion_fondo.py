@@ -5,10 +5,14 @@ Created on Fri Nov  8 10:13:10 2024
 @author: jose
 """
 
-#  python -m streamlit run (arbol de directorio/app.py 
+#python -m streamlit run (arbol de directorio/app.py 
 #import matplotlib
 #matplotlib.use('Agg')
 #import matplotlib.pyplot as plt
+import hvplot
+import hvplot.pandas
+
+pd.options.plotting.backend = 'hvplot'
 
 def fecha_nac(fecha,sexo):
     import datetime
